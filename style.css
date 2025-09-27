@@ -1,0 +1,86 @@
+/* Estilo general */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #253B7D;
+  color: #fff;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Secciones */
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Portafolio */
+.portafolio-card {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
+}
+.portafolio-card h3 {
+  margin-top: 0;
+}
+
+/* Botón */
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  background: #FB9B09; /* Mostaza */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #e58907;
+}
+
+/* Skills */
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+.skills li {
+  background: #f1f1f1;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #696969;
+  color: white;
+}
+footer a {
+  color: #FB9B09;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
